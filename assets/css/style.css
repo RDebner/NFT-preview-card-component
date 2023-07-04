@@ -25,15 +25,19 @@ main {
     font-family: 'Outfit', sans-serif;
 }
 
-.imagem {
+.imagem-nft{
     width: 200px;
     position: relative;
     bottom: 15px;
     border-radius: 5px;
 }
 
+.imagem:hover {
+    color: hsl(178, 100%, 50%);
+}
+
 .imagem-avatar {
-    width: 25px;
+    width: 20px;
     border: 1px solid #fff;
     border-radius: 50px;
 }
@@ -107,5 +111,36 @@ main {
 .criador {
     color: hsl(215, 51%, 70%) ;
     font-size: 12px;
+}
+
+.criacao {
+    position: relative;
+    top: 5px;
+    right: 4px;
+    text-align: left;
+}
+
+.imagem-avatar {
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
+}
+
+.nome-criador {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nome-criador:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nome-nft {
+    text-decoration: none;
+    color: #fff ;
+}
+
+.nome-nft:hover{
+    color: hsl(178, 100%, 50%) ;
 }
 
