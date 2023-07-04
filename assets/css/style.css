@@ -32,10 +32,6 @@ main {
     border-radius: 5px;
 }
 
-.imagem:hover {
-    color: hsl(178, 100%, 50%);
-}
-
 .imagem-avatar {
     width: 20px;
     border: 1px solid #fff;
